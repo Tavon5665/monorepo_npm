@@ -1,5 +1,13 @@
-# @luhengchang228/monorepo-pkg-c
+# @dorod/monorepo-pkg-c
 
-## 0.0.0
+## 0.1.0
 
-- feat: init package
+### Minor Changes
+
+- init
+
+## 0.1.0-beta.0
+
+### Minor Changes
+
+- init
