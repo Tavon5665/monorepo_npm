@@ -2,4 +2,4 @@
 "@dorod/monorepo-pkg-a": patch
 ---
 
-add curry function
+test: test
