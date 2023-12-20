@@ -1,5 +1,12 @@
 # @dorod/monorepo-pkg-a
 
+## 0.1.2
+
+### Patch Changes
+
+- fe7ea55: 增加乘法口诀
+- 5d7a16a: 增加乘法口诀
+
 ## 0.1.2-alpha.0
 
 ### Patch Changes
