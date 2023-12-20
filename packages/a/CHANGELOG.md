@@ -1,5 +1,11 @@
 # @dorod/monorepo-pkg-a
 
+## 0.1.3
+
+### Patch Changes
+
+- c03a157: 增加 debounce 函数
+
 ## 0.1.2
 
 ### Patch Changes

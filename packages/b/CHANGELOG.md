@@ -1,5 +1,12 @@
 # @dorod/monorepo-pkg-b
 
+## 0.1.5
+
+### Patch Changes
+
+- Updated dependencies [c03a157]
+  - @dorod/monorepo-pkg-a@0.1.3
+
 ## 0.1.4
 
 ### Patch Changes
