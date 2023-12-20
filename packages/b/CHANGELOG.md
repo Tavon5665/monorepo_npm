@@ -1,5 +1,12 @@
 # @dorod/monorepo-pkg-b
 
+## 0.1.3
+
+### Patch Changes
+
+- 945bd68: 修改 pacage.json
+- ac93b51: 修改 package.json
+
 ## 0.1.3-alpha.0
 
 ### Patch Changes
