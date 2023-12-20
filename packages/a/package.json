@@ -1,6 +1,6 @@
 {
   "name": "@dorod/monorepo-pkg-a",
-  "version": "0.1.1",
+  "version": "0.1.2-alpha.0",
   "main": "dist/index.js",
   "files": [
     "dist"
