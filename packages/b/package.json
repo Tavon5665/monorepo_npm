@@ -6,7 +6,7 @@
     "dist"
   ],
   "dependencies": {
-    "@dorod/monorepo-pkg-a": "^0.1.1"
+    "@dorod/monorepo-pkg-a": "workspace:*",
   },
   "devDependencies": {
     "typescript": "^4.9.4"
