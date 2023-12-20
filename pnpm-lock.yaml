@@ -18,7 +18,7 @@ importers:
 
   packages/b:
     specifiers:
-      '@dorod/monorepo-pkg-a': ^0.1.0-beta.0
+      '@dorod/monorepo-pkg-a': ^0.1.0
       typescript: ^4.9.4
     dependencies:
       '@dorod/monorepo-pkg-a': link:../a
