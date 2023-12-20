@@ -1,5 +1,13 @@
 # @dorod/monorepo-pkg-a
 
+## 0.1.6
+
+### Patch Changes
+
+- 5611e11: edit curry debounce
+- c54000a: test: test
+- 4bd2f53: 修改配置
+
 ## 0.1.5
 
 ### Patch Changes
