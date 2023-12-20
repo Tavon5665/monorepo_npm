@@ -10,7 +10,7 @@ export function printMultiplicationTable() {
   }
 }
 
-function debounce<F extends (...args: any[]) => any>(func: F, wait: number): (...args: Parameters<F>) => void {
+export function debounce<F extends (...args: any[]) => any>(func: F, wait: number): (...args: Parameters<F>) => void {
   let timeoutId: number = 0;
   return (...args: Parameters<F>) => {
     if (timeoutId) {
@@ -19,7 +19,7 @@ function debounce<F extends (...args: any[]) => any>(func: F, wait: number): (..
     timeoutId = setTimeout(() => func(...args), wait);
   };
 }
-function curry<F extends (...args: any[]) => any>(fn: F): (...args: Parameters<F>) => any {
+export function curry<F extends (...args: any[]) => any>(fn: F): (...args: Parameters<F>) => any {
   const curried = (...args: any[]) =>
     args.length >= fn.length
       ? fn(...args)
