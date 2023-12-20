@@ -19,3 +19,11 @@ function debounce<F extends (...args: any[]) => any>(func: F, wait: number): (..
     timeoutId = setTimeout(() => func(...args), wait);
   };
 }
+function curry<F extends (...args: any[]) => any>(fn: F): (...args: Parameters<F>) => any {
+  const curried = (...args: any[]) =>
+    args.length >= fn.length
+      ? fn(...args)
+      : (...args2: any[]) => curried(...args, ...args2);
+
+  return curried as (...args: Parameters<F>) => any;
+}
