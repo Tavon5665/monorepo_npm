@@ -1,5 +1,11 @@
 # @dorod/monorepo-pkg-a
 
+## 0.1.4
+
+### Patch Changes
+
+- c9f4088: 增加 debounce
+
 ## 0.1.3
 
 ### Patch Changes
