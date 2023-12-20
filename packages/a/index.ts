@@ -9,3 +9,13 @@ export function printMultiplicationTable() {
     console.log(line);
   }
 }
+
+function debounce<F extends (...args: any[]) => any>(func: F, wait: number): (...args: Parameters<F>) => void {
+  let timeoutId: number = 0;
+  return (...args: Parameters<F>) => {
+    if (timeoutId) {
+      clearTimeout(timeoutId);
+    }
+    timeoutId = setTimeout(() => func(...args), wait);
+  };
+}
