@@ -1,5 +1,13 @@
 # @dorod/monorepo-pkg-b
 
+## 0.1.2
+
+### Patch Changes
+
+- 7140cf0: test
+- Updated dependencies [7140cf0]
+  - @dorod/monorepo-pkg-a@0.1.1
+
 ## 0.1.1
 
 ### Patch Changes

@@ -1,12 +1,12 @@
 {
   "name": "@dorod/monorepo-pkg-b",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/index.js",
   "files": [
     "dist"
   ],
   "dependencies": {
-    "@dorod/monorepo-pkg-a": "^0.1.0"
+    "@dorod/monorepo-pkg-a": "^0.1.1"
   },
   "devDependencies": {
     "typescript": "^4.9.4"
